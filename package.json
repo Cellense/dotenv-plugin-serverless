@@ -1,5 +1,5 @@
 {
-  "name": "dotenv-plugin-serverless",
+  "name": "@cellense/dotenv-plugin-serverless",
   "version": "1.0.0",
   "description":
     "Merge and preload ENV variables found in '.env.common', '.env.${opts.stage}' and '.env' for usage with serverless framework",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Cellense/dotenv-plugin-serverless.git"
+    "url": "git+github.com:Cellense/dotenv-plugin-serverless.git"
   },
   "keywords": ["serverless", "dotenv", "serverless-plugin"],
   "author": "Matúš Čongrády <matus.congrady@buffpanel.com>",
