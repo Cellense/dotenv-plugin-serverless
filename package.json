@@ -1,0 +1,28 @@
+{
+  "name": "dotenv-plugin-serverless",
+  "version": "1.0.0",
+  "description":
+    "Merge and preload ENV variables found in '.env.common', '.env.${opts.stage}' and '.env' for usage with serverless framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cellense/dotenv-plugin-serverless.git"
+  },
+  "keywords": ["serverless", "dotenv", "serverless-plugin"],
+  "author": "Matúš Čongrády <matus.congrady@buffpanel.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cellense/serverless-dotenv-plugin/issues"
+  },
+  "homepage": "https://github.com/Cellense/serverless-dotenv-plugin#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0 || ^5.0.0 || ^6.0.0",
+    "signale": "^1.2.1"
+  }
+}
