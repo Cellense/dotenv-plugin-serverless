@@ -22,7 +22,7 @@ module.exports = class ServerlessPlugin {
       setEnvVariables(stageSpecificVariables);
       setEnvVariables(customVariables);
 
-      star(`Loading ENV variables from .env.custom, ${stageSpecificDotenvPath} and .env`);
+      star(`Loading ENV variables from .env.common, ${stageSpecificDotenvPath} and .env`);
     } catch (e) {
       fatal(`Could not load env variables!`)
       fatal(e)
