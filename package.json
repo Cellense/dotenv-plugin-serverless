@@ -1,6 +1,6 @@
 {
   "name": "@cellense/dotenv-plugin-serverless",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description":
     "Merge and preload ENV variables found in '.env.common', '.env.${opts.stage}' and '.env' for usage with serverless framework",
   "main": "index.js",
